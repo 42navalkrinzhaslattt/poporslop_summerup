@@ -4,7 +4,7 @@
 
 🔗 **[poporslop.com](https://poporslop.com)** — live, open, and running the SummerUp winner market right now.
 
-Built at SummerUp 2026, Da Nang.
+**Stack:** TypeScript · bigint fixed-point · vitest + fast-check    **Context:** SummerUp 2026 hackathon, Da Nang
 
 ---
 
@@ -64,7 +64,7 @@ When a market resolves, one winning µshare pays exactly one µpt. Pure integer 
 
 ## What the property tests prove
 
-Examples test the cases you thought of. These generate thousands of random market states and assert the invariants that have to hold for *all* of them — run with `fast-check`, 1,000 cases each.
+Examples test the cases you thought of. These generate thousands of random market states and assert the invariants that have to hold for *all* of them — run with `fast-check`, 1,000 cases each in CI (200 locally by default; set `FC_NUM_RUNS` to change it).
 
 | # | Property |
 |---|---|
